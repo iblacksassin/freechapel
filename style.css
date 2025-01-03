@@ -1,0 +1,1200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white;
+    font-family:sans-serif;
+}
+.top{
+    background: rgb(13, 50, 28);
+    height: 2.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+.top a{
+    color: white;
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+}
+ .span{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    background: rgb(241, 239, 239);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+    padding-top: 1rem;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.container{
+    background: url(isreal\ flag\ \(2\).png) no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: contain;
+    color: white;
+}
+.container .contain a{
+    text-decoration: none;
+}
+.container .contain {
+    position: relative;
+    top: 75.3%;
+    text-align: center;
+    font-size: 2rem;
+    right: 20.2%;
+}
+.h1{
+    font-size: 4.7rem;
+    font-weight: 900;
+}
+.contain{
+    padding: 10px;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    width: 49%;
+}
+.contain a{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.containing{
+    display: flex;
+}
+.containing img{
+    width: 35%;
+    padding-left: 7rem;
+}
+.containing .side{
+    width: 50%;
+    color: black;
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+}
+.containing a{
+    color: rgb(13, 50, 28);
+    font-weight: 600;
+}
+.body{
+    background: #333232;
+    display: flex;
+    gap: 8rem;
+    padding-bottom: 7rem;
+}
+.body .live{
+    padding-top: 5rem;
+    color: white;
+    font-size: 1.6rem;
+    width: 35rem;
+    padding-left: 2rem;
+}
+ .live img{
+    border-radius: 15px;
+    width: 100%;
+}
+.body .live a{
+    background: rgba(17, 95, 48, 0.815);
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.events{
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.events .list{
+    margin: auto;
+    background: rgb(225, 222, 222);
+    border-radius: 15px;
+    width: 22rem;
+    height: 65vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.lower{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.events .list .lower span{
+    font-size: .9rem;
+    font-weight: 500;
+}
+.events .list .lower a{
+    background: rgba(13, 75, 38, 0.815);
+    padding: 18px 65px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.events .list img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.more{
+    background: rgb(245, 240, 240);
+    padding-bottom: 3rem;
+    padding: 20px;
+}
+.more .h{
+    padding: 20px;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #333232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.more .abouts{
+    border-radius: 15px;
+    font-size: 1.6rem;
+    display: flex;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+}
+.more .abouts .div{
+    padding: 10px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.126) 0.5px 0.5px 5px 0.5px;
+    border-radius: 15px;
+    width: 40rem;
+}
+
+.more .abouts .div p{
+    padding-top: 2rem;
+    padding-left: 1.2rem;
+}
+.more .abouts .div a{
+    color: rgba(13, 75, 38, 0.815);
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.more .abouts img{
+    width: 45%;
+    border-radius: 18px;
+}
+.connect{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #333232;
+    background: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+.input input{
+    padding: 12px 36px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    border: 1px rgba(0, 0, 0, 0.208) solid;
+}
+.connect button{
+    background: rgba(13, 75, 38, 0.815);
+    padding: 16px 47px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.partner{
+    display: flex;
+    gap: 5rem;
+    padding-left: 18rem;
+    background: rgba(234, 232, 232, 0.941);
+}
+.partner img{
+    width: 20%;
+}
+.partner .part{
+    padding-top: 2rem;
+    width: 35rem;
+    font-size: 1.5rem;
+}
+.partner .part a{
+    color: rgba(13, 75, 38, 0.815);
+    font-weight: 600;
+}
+.whatwedo{
+    text-align: center;
+    background: url(donate.jpg) no-repeat;
+    width: 83.3rem;
+    height: 100vh;
+    background-position: 0;
+    background-size: cover;
+    color:white;
+}
+.whatwedo .h2{
+    font-size: 3rem;
+}
+.whatwedo a{
+    color: rgb(13, 75, 38) ;
+    font-size: 1.5rem;
+}
+.whatwedo a:hover{
+    color: black ;
+}
+.containers a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 17px;
+    border-radius: 30px;
+}
+.ourgoal{
+    background: #0000008d;
+    height: 90vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.aboutus{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+}
+.about{
+    padding-top: 1rem;
+    margin: auto;
+    width: 20rem;
+    font-size: 1.3rem;
+}
+.about h2{
+    color:  rgb(96, 207, 141) ;
+    padding-bottom: 1.6rem;
+}
+footer{
+    background:#3f3e3e;
+    color: white;
+}
+footer h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+footer .last{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+    width: 50rem;
+    margin: auto;
+}
+footer .last .socials{
+    background: white;
+    color: rgba(13, 75, 38, 0.815);
+    height: 60vh;
+    font-size: 1.2rem;
+    width: 15rem;
+    border-radius: 15px;
+}
+footer .last .socials .follow{
+    background: rgba(234, 232, 232, 0.941);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    top: 51%;
+    border-radius: 0 0 15px 15px;
+}
+footer .last .socials .followers{
+    background: rgba(234, 232, 232, 0.941);
+    height: 18vh;
+    text-align: center;
+    position: relative;
+    top: 32%;
+    border-radius: 0 0 15px 15px;
+}
+footer .last .socials .follows{
+    background: rgba(234, 232, 232, 0.941);
+    height: 17vh;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    border-radius: 0 0 15px 15px;
+}
+footer .last .socials .following{
+    background: rgba(234, 232, 232, 0.941);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    top: 24%;
+    border-radius: 0 0 15px 15px;
+}
+footer .last .socials .followed{
+    background: rgba(234, 232, 232, 0.941);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    top: 7%;
+    border-radius: 0 0 15px 15px;
+}
+footer .last .socials .follown{
+    background: rgba(234, 232, 232, 0.941);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    top: 18%;
+    border-radius: 0 0 15px 15px;
+}
+footer .last .socials:hover{
+    padding: 3px;
+    transition: all 0.3s ease-in;
+    transform: translateY(-3%);
+}
+footer .last .socials .follow img{
+    width: 20%;
+    height: 35%;
+    border-radius: 100%;
+}
+footer .last .socials .followers img{
+    width: 20%;
+    height: 35%;
+    border-radius: 100%;
+}
+footer .last .socials .follows img{
+    width: 18%;
+    height: 35%;
+    border-radius: 100%;
+}
+footer .last .socials .following img{
+    width: 20%;
+    height: 35%;
+    border-radius: 100%;
+}
+footer .last .socials .followed img{
+    width: 20%;
+    height: 35%;
+    border-radius: 100%;
+}
+footer .last .socials .follown img{
+    width: 20%;
+    height: 35%;
+    border-radius: 100%;
+}
+footer .last .socials img{
+    width: 70%;
+    margin-top: .5rem;
+    margin-left: 2.4rem;
+    border-radius: 15px;
+}
+footer .footer{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    width: 70rem;
+    gap: 3rem;
+    display: flex;
+}
+.footer li{
+    font-size: 1.3rem;
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+footer .footer li a{
+    color: white;
+    text-decoration: none;
+}
+footer .divs .final{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+}
+footer .divs .final img{
+    width: 15%;
+}
+.donate .donners {
+    background: url(donate\ \(1\).jpg)no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    transition: 8s;
+    color: white;
+    font-size: 2rem;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.doning{
+    padding-top: 4rem;
+    width: 30rem;
+    padding-left: 10rem;
+}
+.doning h2{
+    color: rgba(17, 95, 48, 0.815);
+    padding-bottom: 1rem;
+}
+.doning a{
+    background: rgba(17, 95, 48, 0.815);
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+@keyframes animate {
+    0%{
+        background-image: url(donate\ \(2\).jpg);
+    }
+    20%{
+        background-image: url(donate\ \(3\).jpg);
+    }
+    40%{
+        background-image: url(donate\ \(4\).jpeg);
+    }
+    60%{
+        background-image: url(donate\ \(5\).jpg);
+    }
+    80%{
+        background-image: url(destroction\ \(1\).JPG);
+    }
+    100%{
+        background-image: url(destroction\ \(2\).JPG);
+    }
+}
+.donate .donating{
+    width: 95%;
+    font-size: 1.3rem;
+    margin: auto;
+}
+.donate .donating h1{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.donate .donating p{
+    padding-bottom: 3rem;
+}
+.thank{
+    background: rgb(235, 233, 233);
+    width: 97%;
+    height: 30vh;
+    margin: auto;
+    border-radius: 16px;
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+    padding-bottom: 1rem;
+}
+.thanks{
+    padding: 15px;
+    padding-top: 2rem;
+}
+.thanks h1{
+    font-size: 2.6rem;
+    margin-left: 3rem;
+}
+.payment .paynow{
+    width: 30rem;
+    margin: auto;
+}
+.payment .paynow input{
+    padding: 14px 40px;
+    margin-top: 1rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    border: 1.5px solid black;
+}
+.payment .paynow a{
+    background: rgba(17, 95, 48, 0.815);
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.extra{
+    width: 95%;
+    margin: auto;
+}
+.note{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+}
+.devotion{
+    width: 95%;
+}
+.devotion h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #3f3e3e;
+    border-bottom: 1px rgba(0, 0, 0, 0.568) solid;
+    margin-bottom: 2rem;
+}
+.devote{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.devote img{
+    width: 40%;
+    border-radius: 20px;
+}
+.devote .img{
+    width: 30%;
+}
+.devoting{
+    width: 35rem;
+    font-size: 1.3rem;
+}
+.tithe{
+    width: 95%;
+}
+.tithes{
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: #333232 solid 1px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.offer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer img{
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.offering{
+    width: 30rem;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+.offering a{
+    background: rgba(17, 95, 48, 0.815);
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 468px){
+    .top{
+        width: 83.3rem;
+        height: 8rem;
+        font-size: 3.6rem;
+    }
+    .span{
+        border-radius: 100%;
+        width: 90px;
+        height: 90px;
+    }
+    .top a{
+        position: relative;
+        bottom: 22px;
+        left: 10px;
+    }
+    .header{
+        width: 81.8rem;
+        height: 10rem;
+    }
+    nav ul{
+        position: fixed;
+        width: 80rem;
+        height: 10rem;
+        background: whitesmoke;
+        bottom: 0px;
+        padding: 10px;
+        justify-content: space-evenly;
+        left: 20px;
+        gap: 2rem;
+        border-radius: 10px 10px 0 0;
+    }
+    .header a{
+        position: relative;
+        top: 30px;
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 650;
+    }
+    .container{
+        background: url(isreal\ flag\ \(2\).png) no-repeat;
+        width: 83rem;
+        height: 110vh;
+        background-size: cover;
+        color: white;
+    }
+    .containing{
+        position: relative;
+        bottom: 100px;
+        margin-top: 10rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction:column;
+    }
+    .containing img{
+        width: 100%;
+        margin-left: 20rem;
+    }
+    .containing .side{
+        width: 80rem;
+        color: black;
+        font-size: 3.5rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .containing a{
+        color: rgb(13, 50, 28);
+        font-weight: 600;
+    }
+    .body{
+        width: 83.3rem;
+        height: 580vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .body .live{
+        padding-top: 5rem;
+        color: white;
+        font-size: 3.5rem;
+        width: 60rem;
+        padding-left: 12rem;
+    }
+     .live img{
+        border-radius: 15px;
+        width: 100%;
+    }
+    .body .live a{
+        background: rgba(17, 95, 48, 0.815);
+        padding: 38px 70px;
+        border-radius: 60px;
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+    }
+    .events{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .events .list{
+        margin-left: 12rem;
+        margin-bottom: 5rem;
+        width: 60rem;
+        height: 160vh;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    .lower{
+        padding-top: 1rem;
+        padding-left: 3rem;
+    }
+    .events .list .lower span{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .events .list .lower a{
+        background: rgba(13, 75, 38, 0.815);
+        padding: 28px 85px;
+        border-radius: 60px;
+        font-size: 2.6rem;
+        color: white;
+        text-decoration: none;
+    }
+    .events .list img{
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+    }
+    .more{
+        width: 80rem;
+        height: 350vh;
+    }
+    .more .h{
+        padding: 20px;
+        font-size: 5rem;
+        font-weight: 900;
+        color: #333232;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .more .abouts{
+        border-radius: 15px;
+        font-size: 4rem;
+        display: flex;
+        gap: 5rem;
+        margin-left: 2rem;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        justify-content: space-around;
+    }
+    .more .abouts .div{
+        padding: 10px;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.126) 0.5px 0.5px 5px 0.5px;
+        border-radius: 25px;
+        padding-bottom: 7rem;
+        width: 75rem;
+    }
+    .more .abouts .div p{
+        padding-top: 2rem;
+        padding-left: 1.2rem;
+    }
+    .more .abouts .div a{
+        color: rgba(13, 75, 38, 0.815);
+        font-size: 3.6rem;
+        font-weight: 550;
+    }
+    .more .abouts img{
+        width: 95%;
+        border-radius: 18px;
+    }
+    .connect{
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+        width: 80rem;
+        height: 150vh;
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 80rem;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    .connect input{
+        width: 70rem;
+        height: 18vh;
+        font-size: 3rem;
+        margin: auto;
+        border-radius: 90px;
+        border: 5px rgba(0, 0, 0, 0.208) solid;
+    }
+    .connect button{
+        background: rgba(13, 75, 38, 0.815);
+        width: 70rem;
+        height: 20vh;
+        margin: auto;
+        border-radius: 80px;
+        border: none;
+        font-size: 4rem;
+        color: white;
+        text-decoration: none;
+    }
+    .partner{
+        width: 65rem;
+        height: 150vh;
+        display: flex;
+    }
+    .partner img{
+        width: 45%;
+        margin-left: -9rem;
+    }
+    .partner .part{
+        padding-top: 2rem;
+        width: 55rem;
+        font-size: 3rem;
+    }
+    .partner .part a{
+        color: rgba(13, 75, 38, 0.815);
+        font-weight: 600;
+    }
+    .whatwedo{
+        background: url(donate.jpg) no-repeat;
+        width: 83.3rem;
+        height: 115rem;
+        background-position: 0;
+        background-size: cover;
+        color:white;
+    }
+    .whatwedo .h2{
+        font-size: 6rem;
+        padding-bottom: 2rem;
+    }
+    .aboutus{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 3rem;
+    }
+    .about{
+        padding-top: 3rem;
+        margin: auto;
+        width: 35rem;
+        font-size: 3rem;
+    }
+    .about h2{
+        color:  rgb(96, 207, 141) ;
+        padding-bottom: 1.6rem;
+        font-size: 2.8rem;
+    }
+    .ourgoal{
+        background: #0000008d;
+        height: 115rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    footer{
+        background:#3f3e3e;
+        width: 83.3rem;
+        color: white;
+        padding-bottom: 15rem;
+    }
+    footer h1{
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 3.5rem;
+        padding-bottom: 5rem;
+    }
+    footer .last{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 3rem;
+        width: 75rem;
+        margin: auto;
+    }
+    footer .last .socials{
+        background: white;
+        color: rgba(13, 75, 38, 0.815);
+        height: 160vh;
+        font-size: 3rem;
+        width: 35rem;
+        border-radius: 15px;
+    }
+    footer .last .socials .follow{
+        background: rgba(234, 232, 232, 0.941);
+        height: 50vh;
+        text-align: center;
+        position: relative;
+        top: 53%;
+        border-radius: 0 0 15px 15px;
+    }
+    footer .last .socials .followers{
+        background: rgba(234, 232, 232, 0.941);
+        height: 50vh;
+        text-align: center;
+        position: relative;
+        top: 32%;
+        border-radius: 0 0 15px 15px;
+    }
+    footer .last .socials .follows{
+        background: rgba(234, 232, 232, 0.941);
+        height: 50vh;
+        text-align: center;
+        position: relative;
+        top: 0.1%;
+        border-radius: 0 0 15px 15px;
+    }
+    footer .last .socials .following{
+        background: rgba(234, 232, 232, 0.941);
+        height: 50vh;
+        text-align: center;
+        position: relative;
+        top: 28.3%;
+        border-radius: 0 0 15px 15px;
+    }
+    footer .last .socials .followed{
+        background: rgba(234, 232, 232, 0.941);
+        height: 50vh;
+        text-align: center;
+        position: relative;
+        top: 12%;
+        border-radius: 0 0 15px 15px;
+    }
+    footer .last .socials .follown{
+        background: rgba(234, 232, 232, 0.941);
+        height: 50vh;
+        text-align: center;
+        position: relative;
+        top: 22%;
+        border-radius: 0 0 15px 15px;
+    }
+    footer .last .socials:hover{
+        padding: 3px;
+        transition: all 0.3s ease-in;
+        transform: translateY(-3%);
+    }
+    footer .last .socials .follow img{
+        width: 40%;
+        height: 55%;
+        border-radius: 100%;
+    }
+    footer .last .socials .followers img{
+        width: 40%;
+        height: 55%;
+        border-radius: 100%;
+    }
+    footer .last .socials .follows img{
+        width: 40%;
+        height: 55%;
+        border-radius: 100%;
+    }
+    footer .last .socials .following img{
+        width: 40%;
+        height: 55%;
+        border-radius: 100%;
+    }
+    footer .last .socials .followed img{
+        width: 40%;
+        height: 55%;
+        border-radius: 100%;
+    }
+    footer .last .socials .follown img{
+        width: 40%;
+        height: 55%;
+        border-radius: 100%;
+    }
+    footer .last .socials img{
+        width: 80%;
+        margin-top: .5rem;
+        margin-left: 2.4rem;
+        border-radius: 15px;
+    }
+    footer .footer{
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+        margin: auto;
+        width: 70rem;
+        gap: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer li{
+        font-size: 4rem;
+        display:flex;
+        list-style: none;
+        flex-direction: column;
+    }
+    footer .footer li a{
+        color: white;
+        text-decoration: none;
+    }
+    footer .divs .final{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    footer .divs .final img{
+        width: 35%;
+    }
+    .donate .donners {
+        background: url(donate\ \(1\).jpg)no-repeat;
+        width: 83rem;
+        height: 200vh;
+        background-size: cover;
+        transition: 8s;
+        color: white;
+        font-size: 3.4rem;
+
+    }
+    .doning{
+        padding-top: 7rem;
+        width: 40rem;
+        padding-left: 6rem;
+    }
+    .doning h2{
+        color: rgba(17, 95, 48, 0.815);
+        font-size: 4rem;
+    }
+    .doning a{
+        background: rgba(17, 95, 48, 0.815);
+        padding: 22px 35px;
+        border-radius: 60px;
+        font-size: 2.5rem;
+        color: white;
+        text-decoration: none;
+    }
+    @keyframes animate {
+        0%{
+            background-image: url(donate\ \(2\).jpg);
+        }
+        20%{
+            background-image: url(donate\ \(3\).jpg);
+        }
+        40%{
+            background-image: url(donate\ \(4\).jpeg);
+        }
+        60%{
+            background-image: url(donate\ \(5\).jpg);
+        }
+        80%{
+            background-image: url(destroction\ \(1\).JPG);
+        }
+        100%{
+            background-image: url(destroction\ \(2\).JPG);
+        }
+    }
+    .donate .donating{
+        width: 75rem;
+        font-size: 3.2rem;
+        margin-left: 4rem;
+    }
+    .donate .donating h1{
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .donate .donating p{
+        padding-bottom: 7rem;
+    }
+    .payment{
+        text-align: center;
+        width: 60rem;
+        padding-bottom: 10rem;
+    }
+    .payment .paynow h2{
+        font-size: 3rem;
+    }
+    .payment .paynow input{
+        height: 14vh;
+        width: 55rem;
+        margin-top: 1rem;
+        border-radius: 60px;
+        margin-bottom: 3rem;
+        font-size: 2.9rem;
+        border: 2.5px solid black;
+    }
+    .payment .paynow a{
+        background: rgba(17, 95, 48, 0.815);
+        padding: 28px 45px;
+        border-radius: 60px;
+        font-size: 2.9rem;
+        color: white;
+        text-decoration: none;
+    }
+    .extra{
+        width: 83.3rem;
+        height: 280vh;
+        margin: auto;
+    }
+    .note{
+        padding-top: 5rem;
+        text-align: center;
+        margin: auto;
+        width: 70rem;
+        font-size: 3.5rem;
+        padding: 10px;
+        padding-bottom: 5rem;
+    }
+    .thank{
+        background: rgb(235, 233, 233);
+        width: 83rem;
+        height: 90vh;
+        border-radius: 16px;
+        font-size: 3.5rem;
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+        padding-bottom: 1rem;
+    }
+    .thanks{
+        padding: 15px;
+        margin: auto;
+        width: 70rem;
+        padding-top: 2rem;
+    }
+    .thanks h1{
+        font-size: 2.6rem;
+        margin-left: 3rem;
+    }
+    .devotion{
+        width: 83.2rem;
+        margin-bottom: 10rem;
+    }
+    .devotion h1{
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 900;
+        color: #3f3e3e;
+        border-bottom: 1px rgba(0, 0, 0, 0.568) solid;
+        margin-bottom: 2rem;
+    }
+    .devote{
+        display: flex;
+        flex-direction:column;
+    }
+    .devote img{
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        width: 70%;
+        border-radius: 20px;
+    }
+    .devote .img{
+        width: 70%;
+    }
+    .devoting{
+        margin: auto;
+        width: 75rem;
+        font-size: 4rem;
+    }
+    .tithe{
+        width: 83.2rem;
+        margin-bottom: 10rem;
+    }
+    .tithes{
+        text-align: center;
+        font-size: 2.5rem;
+        border-bottom: #333232 solid 1px;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    .offer{
+        display: flex;
+        flex-direction: column;
+    }
+    .offer img{
+        margin: auto;
+        width: 70%;
+        border-radius: 20px;
+        margin-top: 2rem;
+    }
+    .offering{
+        width: 70rem;
+        margin: auto;
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    .offering a{
+        background: rgba(17, 95, 48, 0.815);
+        padding: 30px;
+        border-radius: 60px;
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+    }
+}
